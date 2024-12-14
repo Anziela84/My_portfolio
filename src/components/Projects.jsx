@@ -5,6 +5,7 @@ import project3 from "../images/project3.png";
 import project4 from "../images/project4.png";
 import project5 from "../images/project5.png";
 import project6 from "../images/project6.png";
+
 class Project extends React.Component {
   render() {
     return (
@@ -12,32 +13,32 @@ class Project extends React.Component {
         <h2>Projects</h2>
         <div className="project-collection">
           <div>
-            <a href="https://anusa111.github.io/Colorgenerator/">
+            <a href="https://anusa111.github.io/Colorgenerator/" rel="noreferrer">
               <img src={project1} alt="" />
             </a>
           </div>
           <div>
-            <a href="https://anusa111.github.io/Stopwatch/">
+            <a href="https://anusa111.github.io/Stopwatch/" rel="noreferrer">
               <img src={project2} alt="" />
             </a>
           </div>
           <div>
-            <a href="https://anusa111.github.io/movieguide" target="_blank">
+            <a href="https://anusa111.github.io/movieguide" target="_blank" rel="noreferrer">
               <img src={project3} alt="" />
             </a>
           </div>
           <div>
-            <a href="https://anusa111.github.io/quiz-game-js"  target="_blank">
+            <a href="https://anusa111.github.io/quiz-game-js" target="_blank" rel="noreferrer">
               <img src={project4} alt="" />
             </a>
           </div>
           <div>
-            <a href="https://anusa111.github.io/Js-weather/">
+            <a href="https://anusa111.github.io/Js-weather/" rel="noreferrer">
               <img src={project5} alt="" />
             </a>
           </div>
           <div>
-            <a href="https://anusa111.github.io/ReactWeather"  target="_blank">
+            <a href="https://anusa111.github.io/ReactWeather" target="_blank" rel="noreferrer">
               <img src={project6} alt="" />
             </a>
           </div>
@@ -46,4 +47,5 @@ class Project extends React.Component {
     );
   }
 }
-export default Project;
+
+export default Project
